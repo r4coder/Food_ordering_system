@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Food Ordering System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <h1>Foodie</h1>
+        </div>
+
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order</a>
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Welcome to<br>
+                Our Restaurant
+            </h1>
+
+            <p>
+                Delicious food delivered to your table.
+            </p>
+
+            <button onclick="startOrder()">
+                Order Now
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- MENU SECTION -->
+    <section id="menu" class="menu-section">
+
+        <h2>Our Menu</h2>
+
+        <div id="menu-container" class="menu-container">
+            <!-- Menu items will be inserted here -->
+        </div>
+
+    </section>
+
+
+    <!-- ORDER SECTION -->
+    <section id="order" class="order-section">
+
+        <h2>Your Order</h2>
+
+        <div id="order-container">
+
+            <p id="order-message">
+                Click "Order Now" to place your order.
+            </p>
+
+            <div id="order-items"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- STATUS -->
+    <section class="status-section">
+
+        <h2>Order Status</h2>
+
+        <p id="status">
+            Waiting for order...
+        </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Foodie Restaurant
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
